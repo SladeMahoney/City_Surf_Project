@@ -54,14 +54,13 @@ Insert Tableau Link here
 
 Include map of student distribution and graphs of trends
 
-## Staying with CSP
+## Staying with CSP: Using Machine Learning for the Mission
 We created a supervised machine learning model to predict what type of students are more likely to stay long-term with CSP. This model is created with the intention of allowing
 CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
 Rather than giving a clear answer, it can help CSP ask greater questions about their outreach strategies and inclusivity goals. 
 
 ### Feature Selection
-(Feature chose/Why)
-- Program Type 
+- Program Type
 - Grade Level
 - Date of Birth
 - Ethnicity/Race
