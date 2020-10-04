@@ -49,6 +49,43 @@ How many students have siblings in the course?
 Where do the students live?
 Take a look at zip codes and draw up a city map to illustrate CSP’s reach within the city
 
+## Visualizations
+Insert Tableau Link here
+
+Include map of student distribution and graphs of trends
+
+## Staying with CSP
+We created a supervised machine learning model to predict what type of students are more likely to stay long-term with CSP. This model is created with the intention of allowing
+CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
+Rather than giving a clear answer, it can help CSP ask greater questions about their outreach strategies and inclusivity goals. 
+
+### Feature Selection
+(Feature chose/Why)
+- Program Type 
+- Grade Level
+- Date of Birth
+- Ethnicity/Race
+- Gender
+- Home Zip Code
+- School Attending
+- Total Days/% Attended
+
+### Data preprocessing
+Keeping desired data columns or inputs and converting data types into numeric 
+
+Later Segment Deliverables: 
+- Description of splitting data into testing and training sets
+- Descpription of how model was trained
+- Confusion matrix and final accuracy score
+
+### Limitations
+
+TBD
+
+### Benefits
+
+TBD
+
 ## Results
 
 TBD
