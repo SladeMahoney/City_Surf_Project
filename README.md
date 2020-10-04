@@ -2,6 +2,13 @@
 ## Data Analysis of City Surf Project Programs
 City Surf Project (CSP) is a non-profit in San Francisco that takes students from underserved communities throughout San Francisco surfing to teach them about the importance of physical exercise and expose them to the benefits of nature and the sport. Their programs allow students to fulfill their PE requirement in certain San Francisco Unified School District (SFUSD) schools. 
 
+## Tools & Technologies Utilized
+- Python language
+- Pandas dataframes
+- PostgeSQL database
+- Tableau visualizations
+- Supervised Machine Learning
+
 ## Purpose 
 Elena and Slade want to use data analysis to support meaningful work happening in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would now like to gain a better understanding of what areas of San Francisco their students come from, the attendance rates, and if dropout rates can be predicted for certain programs. Ideally, they are looking to utilize data analysis to support the effectiveness of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy-mapping. The purpose of our findings are to help highlight the trends and visualizations in their data needed to secure donor funding, grant funding, and increased support from the community to continue and potentially expand their programming in San Francisco. Elena and Slade offered their services as volunteer data analysts because they believe organizations like CSP need  storytelling with data to help expand their intentions and mission.
 
@@ -11,8 +18,8 @@ The Department of Children, Youth and Family Services (DCYFS) in San Francisco p
 2. Two spreadsheets on school hosts and CSP programs
 3. One spreadsheet on student demographics 
 
-## Analysis Goals
-CSP's analysis goals can be categorized into the following: 
+## Questions / Analysis Goals
+CSP's analysis goals are categorized into the following: 
 
 - SCHOOLS WITH MOST STUDENTS /
 Which schools do most of the students come from?
@@ -32,13 +39,21 @@ Age/grade students join/start (first time) the program
 
 - WHO DOES NOT CONTINUE W/PROGRAM /
 How many students only take 1 class (with demographic information associated) w/CSP
-this will have to account for our field trip class which is a majority of one-time participants; should look to see who from the one-day classes continues to come and examine why 
-I would also examine attendance trends within our long term classes to see what students are falling off in those classes and why 
+this will have to account for our field trip class which is a majority of one-time participants; should look to see who from the one-day classes who continues to come 
+I would also examine attendance trends within our long term classes to see what students are falling off in those classes
 
 - SIBLING ENGAGEMENT / 
-How many students have siblings in the course
+How many students have siblings in the course?
 
-- WHAT COMMUNITIES DO WE SERVE PREDOMINANTLY /
+- COMMUNITIES SERVED PREDOMINANTLY /
 Where do the students live?
 Take a look at zip codes and draw up a city map to illustrate CSP’s reach within the city
 
+## Results
+
+TBD
+
+
+## Recommendations 
+
+TBD
