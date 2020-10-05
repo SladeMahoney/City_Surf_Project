@@ -12,7 +12,7 @@ Elena and Slade want to use data analysis to support meaningful work happening i
 - Tableau visualizations
 - Supervised Machine Learning
 
-## Communication Tools and Protocols
+## Communication Tools & Protocols
 - In-person communication
 - Google Docs
 - GitHub
@@ -74,7 +74,7 @@ Rather than giving a clear answer, it can help CSP ask greater questions about t
 - School Attending
 - Total Days/% Attended
 
-### Data preprocessing
+### Data Preprocessing
 Keeping desired data columns or inputs and converting data types into numeric 
 
 Later Segment Deliverables: 
