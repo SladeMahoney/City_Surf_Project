@@ -15,7 +15,7 @@ Elena and Slade want to use data analysis to support meaningful work happening i
 ## Communication Tools & Protocols
 - In-person communication
 - Google Docs
-- GitHub
+- Slack
 
 ## Data Source
 The Department of Children, Youth and Family Services (DCYFS) in San Francisco provides a portal for records of organizations like CSP. Within this portal is a database of CSP's data. Four CSV files were extracted and provided to Slade and Elena. 
