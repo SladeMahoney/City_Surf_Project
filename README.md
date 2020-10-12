@@ -5,14 +5,11 @@ City Surf Project (CSP) is a non-profit in San Francisco that takes students fro
 ## Purpose 
 Elena and Slade want to use data analysis to support meaningful work happening in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would now like to gain a better understanding of what areas of San Francisco their students come from, trends in attendance rates, and what students are most likely to show up for their programs. Ideally, they are looking to use data analysis to support the evaluation of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy-mapping. The purpose of our findings are to help highlight the trends and visualizations in their data needed to secure donor funding, grant funding, and increased support from the community to continue and potentially expand their programming in San Francisco. Elena and Slade offered their services as volunteer data analysts because they believe organizations like CSP need storytelling with data to help expand their mission and shape their work.
 
-### Presentation
-Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
-
 ## Tools & Technologies 
-- Python language
-- Pandas dataframes
+- Python 
+- Pandas
 - PostgeSQL database
-- Tableau visualizations
+- Tableau 
 - Supervised Machine Learning
 
 ## Communication Tools & Protocols
@@ -29,42 +26,46 @@ The Department of Children, Youth and Family Services (DCYFS) in San Francisco p
 ## Questions / Analysis Goals
 CSP's analysis goals are categorized into the following: 
 
-- SCHOOLS WITH MOST STUDENTS /
-Which schools do most of the students come from?
+SCHOOLS WITH MOST STUDENTS / Where do most students go to school?
 
-- REPEAT & RETURNING STUDENTS / 
-Determine the number and frequency of repeat students
-How many repeat students there are: surf one time, two times, three times etc.
-How many times do they ‘repeat’ (i.e. 15 out of 400 students takes a class for 2 semesters, 36 weeks)
+FREQUENCY OF REPEAT & RETURNING STUDENTS / What is the number or frequency of repeat students?
 
-- LENGTH OF TIME STUDENTS ARE WITH CSP /
-What is the breakdown for returning participants?
-Determine repeat students (how long students are in the program over the course of 5* years, i.e. 5 students have been in the program for over 4+ years, 16 students in the program for 3 years, etc. 
+LENGTH OF TIME STUDENTS ARE WITH CSP / What is the breakdown for returning participants? 
 
-- AGE STUDENTS JOIN PROGRAM /
-What age group is most likely to join their programs?
-Age/grade students join/start (first time) the program 
+AGE STUDENTS JOIN PROGRAM / What age group is most likely to join CSP for the first time? 
 
-- WHO DOES NOT CONTINUE W/PROGRAM /
-How many students only take 1 class (with demographic information associated) w/CSP
-this will have to account for our field trip class which is a majority of one-time participants; should look to see who from the one-day classes who continues to come 
-I would also examine attendance trends within our long term classes to see what students are falling off in those classes
+WHO DOES NOT CONTINUE W/ CSP / How many students only take 1 class?
 
-- SIBLING ENGAGEMENT / 
-How many students have siblings in the course?
+SIBLING ENGAGEMENT / How many students have siblings in the course?
 
-- COMMUNITIES SERVED PREDOMINANTLY /
-Where do the students live?
+COMMUNITIES SERVED PREDOMINANTLY / Where are students coming from (zip code)? 
+
 Take a look at zip codes and draw up a city map to illustrate CSP’s reach within the city
 
-## Visualizations
-Insert Tableau Link here
+## Presentation & Dashboard
+Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
 
-Include map of student distribution and graphs of trends
+### Final Dashboard 
+We created our dashboard using the Tableau software. The outline of our slides below describes the structure of our presentation, combining the analysis sections wished to be explored by CSP and by Slade and Elena. 
+
+Outline of Slides
+- Map of the City: Where do CSP participants reside?
+- Trend Exploration: Answering analysis questions with graphs, calculations and other visualizations
+- Machine Learning Model:  Exploring the likelihood of a student participating in CSP programs given specific feature inputs
+
+### Interative Elements & Visualizations
+- The map of student distribution across the city, specifically showing what parts of the city participants live in
+- Users may input certain student characteristics and the model will calculate the likelihood that student will participate in CSP programs 
+
+### Question specifics
+- How many repeat students there are: surf one time, two times, three times etc.
+- How many times do they ‘repeat’ (i.e. 15 out of 400 students takes a class for 2 semesters, 36 weeks)
+- Determine repeat students (how long students are in the program over the course of 5* years, i.e. 5 students have been in the program for over 4+ years, 16 students in the program for 3 years, etc.)
+- Who from the one-day classes (Field trip class which is a majority of one-time participants) continues to come 
+- Examine attendance trends within our long term classes to see what students are falling off in those program classes
 
 ## Staying with CSP: Using Machine Learning for the Mission
-We created a supervised machine learning model to predict what type of students are more likely to stay long-term with CSP. This model is created with the intention of allowing
-CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
+We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
 Rather than giving a clear answer, it can help CSP ask greater questions about their outreach strategies and inclusivity goals. 
 
 ### Feature Selection
@@ -75,7 +76,7 @@ Rather than giving a clear answer, it can help CSP ask greater questions about t
 - Gender
 - Home Zip Code
 - School Attending
-- Total Days/% Attended
+- % of Total Classes Attended
 
 ### Data Preprocessing
 Keeping desired data columns or inputs and converting data types into numeric 
@@ -100,4 +101,3 @@ TBD
 
 ## Recommendations 
 
-TBD
