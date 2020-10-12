@@ -8,9 +8,9 @@ Elena and Slade want to use data analysis to support meaningful work happening i
 ## Tools & Technologies 
 - Python 
 - Pandas
-- PostgeSQL database
+- PostgreSQL 
 - Tableau 
-- Supervised Machine Learning
+- Machine Learning
 
 ## Communication Tools & Protocols
 - In-person communication
