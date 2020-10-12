@@ -38,9 +38,7 @@ WHO DOES NOT CONTINUE W/ CSP / How many students only take 1 class?
 
 SIBLING ENGAGEMENT / How many students have siblings in the course?
 
-COMMUNITIES SERVED PREDOMINANTLY / Where are students coming from (zip code)? 
-
-Take a look at zip codes and draw up a city map to illustrate CSP’s reach within the city
+COMMUNITIES SERVED PREDOMINANTLY / Where are students coming from? 
 
 ## Presentation & Dashboard
 Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
@@ -63,6 +61,7 @@ Outline of Slides
 - Determine repeat students (how long students are in the program over the course of 5* years, i.e. 5 students have been in the program for over 4+ years, 16 students in the program for 3 years, etc.)
 - Who from the one-day classes (Field trip class which is a majority of one-time participants) continues to come 
 - Examine attendance trends within our long term classes to see what students are falling off in those program classes
+- Create a city map to illustrate CSP’s reach within the city using zip code information
 
 ## Staying with CSP: Using Machine Learning for the Mission
 We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
