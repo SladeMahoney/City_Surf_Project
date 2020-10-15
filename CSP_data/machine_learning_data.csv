@@ -1,0 +1,186 @@
+participant_id,distinct_program_count,date_of_birth,city,home_zip_code,race_ethnicity,gender,school_attending,school_entry_date,grade_level_fy18_19,grade_level_fy19_20,csp_enrollment_date,csp_approx_enrollment_age
+46842888,3,4/26/2004,San Francisco,94103,Declined to state/Other,Male,Mission HS,8/20/2018,9,10,11/29/2018,14.6
+46843252,1,4/12/2003,San Francisco,94116,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,10/2/2018,15.5
+46843305,1,8/21/2001,San Francisco,94110,Asian/Pacific Islander,Male,Mission HS,8/20/2018,10,11,11/15/2018,17.2
+46843348,1,6/26/2000,San Francisco,94134,Asian/Pacific Islander,Male,Mission HS,6/12/2019,10,11,10/2/2018,18.3
+46843349,2,4/8/2003,San Francisco,94112,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,2/14/2019,15.9
+46843398,1,12/10/2003,San Francisco,94112,African American/Other Black,Male,Lincoln (Abraham) HS,6/12/2019,9,10,11/16/2018,14.9
+46843808,2,11/23/2004,San Francisco,94110,Hispanic/Latinx,Female,Lowell HS,8/20/2018,9,10,10/2/2018,13.9
+46843825,2,7/11/2004,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,2/11/2019,14.6
+46843828,1,7/6/2004,San Francisco,94132,Hispanic/Latinx,Male,Lincoln (Abraham) HS,1/7/2019,9,10,2/14/2019,14.6
+46843859,2,2/24/2004,San Francisco,94122,Asian/Pacific Islander,Male,Lowell HS,8/20/2018,9,10,10/2/2018,14.6
+46843869,1,1/17/2004,San Francisco,94122,Declined to state/Other,Declined/Not Stated,Independence HS,8/20/2018,9,11,8/6/2019,15.6
+46843888,1,3/16/2004,San Francisco,94124,Declined to state/Other,Female,Balboa HS,6/12/2019,9,10,10/2/2018,14.6
+46844454,1,6/16/2004,San Francisco,94110,Hispanic/Latinx,Female,Leadership HS Charter,8/20/2018,9,10,4/18/2019,14.8
+46844856,1,3/5/2003,San Francisco,94124,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,3/22/2019,16.1
+46846095,1,4/25/2002,San Francisco,94110,Multiracial/Multiethnic,Transgender,Mission HS,8/20/2018,10,11,1/7/2019,16.7
+46846158,1,9/14/2003,San Francisco,94112,Caucasian/ White,Male,Mission HS,8/20/2018,10,11,5/14/2019,15.7
+46846606,2,2/23/2004,San Francisco,94118,Caucasian/ White,Male,Lowell HS,8/20/2018,9,10,10/2/2018,14.6
+46847012,16,9/25/2003,San Francisco,94114,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,10/4/2018,15
+46847639,1,5/14/2003,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,5/10/2019,16
+46848314,3,6/29/2004,San Francisco,94112,Caucasian/ White,Male,Mission HS,8/20/2018,9,10,12/14/2018,14.5
+46848575,1,10/21/2001,San Francisco,94134,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,11/15/2018,17.1
+46848682,2,1/12/2003,San Francisco,94131,Hispanic/Latinx,Female,Lowell HS,8/20/2018,10,11,8/6/2019,16.6
+46848962,10,1/11/2004,San Francisco,94103,Hispanic/Latinx,Female,Mission HS,8/20/2018,9,10,10/2/2018,14.7
+46848990,2,9/28/2003,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,8/20/2018,9,10,2/11/2019,15.4
+46849073,2,1/27/2003,San Francisco,94103,Declined to state/Other,Declined/Not Stated,Lowell HS,8/20/2018,10,11,2/13/2019,16.1
+46849096,1,1/17/2003,San Francisco,94103,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,5/10/2019,16.3
+46850110,1,6/18/2004,San Francisco,94112,Hispanic/Latinx,Male,Leadership HS Charter,8/20/2018,9,10,4/18/2019,14.8
+46850177,1,3/25/2004,Richmond,94806,Hispanic/Latinx,Male,Mission HS,6/12/2019,9,10,2/14/2019,14.9
+46850621,2,12/15/2003,San Francisco,94127,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.8
+46850784,1,11/8/2004,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,6/12/2019,9,10,5/10/2019,14.5
+46850944,1,4/21/2004,San Francisco,94112,Hispanic/Latinx,Male,Other,8/20/2018,9,10,2/14/2019,14.8
+46850986,2,5/19/2003,San Francisco,94114,Caucasian/ White,Male,Mission HS,6/12/2019,9,10,2/11/2019,15.7
+46851292,1,11/9/2001,San Francisco,94110,Declined to state/Other,Female,Mission HS,8/20/2018,10,11,5/10/2019,17.5
+46851350,2,6/8/2003,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,3/22/2019,15.8
+46851668,2,11/25/2003,San Francisco,94127,Caucasian/ White,Female,Mission HS,6/12/2019,9,10,2/11/2019,15.2
+46851696,1,11/18/2003,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,5/10/2019,15.5
+46851954,1,12/4/2003,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,6/12/2019,9,10,5/10/2019,15.4
+46852363,2,1/21/2004,San Francisco,94124,Hispanic/Latinx,Female,Mission HS,8/20/2018,9,10,2/11/2019,15.1
+46852396,1,10/4/2005,San Francisco,94115,Declined to state/Other,Declined/Not Stated,Creative Arts K-8 Charter,8/29/2018,8,9,8/6/2019,13.8
+46852494,1,12/14/2003,San Francisco,94112,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.8
+46852831,1,4/28/2004,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,5/14/2019,15.1
+46852855,1,1/13/2004,San Francisco,94134,Hispanic/Latinx,Male,Mission HS,6/12/2019,9,10,5/10/2019,15.3
+46853709,1,10/20/2004,San Francisco,94112,Hispanic/Latinx,Male,Leadership HS Charter,8/20/2018,9,10,4/18/2019,14.5
+46853895,1,3/18/2001,San Francisco,94112,Asian/Pacific Islander,Female,Mission HS,6/12/2019,10,11,10/2/2018,17.6
+46853927,1,12/23/2002,San Francisco,94132,African American/Other Black,Male,Leadership HS Charter,8/20/2018,10,11,11/16/2018,15.9
+46854059,1,8/3/2005,San Francisco,94124,African American/Other Black,Female,KIPP Bayview Academy MS Charter,8/20/2018,8,9,11/16/2018,13.3
+46854290,2,4/5/2004,San Francisco,94110,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.5
+46854679,1,3/20/2004,San Francisco,94103,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,5/10/2019,15.1
+46854847,1,10/16/2002,Daly City,94014,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,10/2/2018,16
+46855204,1,9/24/2002,San Francisco,94118,Multiracial/Multiethnic,Female,Mission HS,8/20/2018,10,11,10/2/2018,16
+46855688,1,12/10/2001,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,6/12/2019,10,11,11/15/2018,16.9
+46855710,1,1/16/2003,San Francisco,94112,Hispanic/Latinx,Female,Leadership HS Charter,8/20/2018,10,11,4/18/2019,16.3
+46855793,2,4/15/2003,San Francisco,94122,Caucasian/ White,Female,Lowell HS,8/20/2018,10,11,2/13/2019,15.8
+46857181,2,2/6/2003,San Francisco,94134,Asian/Pacific Islander,Male,Mission HS,8/20/2018,10,11,10/2/2018,15.7
+46857186,1,11/10/2003,San Francisco,94110,Multiracial/Multiethnic,Female,Mission HS,8/20/2018,10,11,10/2/2018,14.9
+46857421,2,10/5/2001,San Francisco,94130,African American/Other Black,Male,Wells (Ida B) HS,10/22/2018,10,11,11/9/2018,17.1
+46857724,2,12/31/2002,San Francisco,94122,Declined to state/Other,Declined/Not Stated,Lincoln (Abraham) HS,6/14/2019,10,11,2/13/2019,16.1
+46857740,1,4/15/2003,San Francisco,94115,Middle Eastern/Arab,Male,Mission HS,8/20/2018,10,11,10/2/2018,15.5
+46858120,1,3/29/2004,San Francisco,94109,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.5
+46858126,2,3/3/2004,San Francisco,94129,Caucasian/ White,Male,Lowell HS,8/20/2018,9,10,10/2/2018,14.6
+46858392,1,1/13/2004,San Francisco,94134,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,3/22/2019,15.2
+46858397,2,8/25/2004,San Francisco,94103,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,12/14/2018,14.3
+46858992,1,7/9/2000,San Francisco,94124,Hispanic/Latinx,Male,Mission HS,8/20/2018,11,11,10/2/2018,18.2
+46859307,1,10/25/2003,San Francisco,94114,Declined to state/Other,Declined/Not Stated,Lincoln (Abraham) HS,6/12/2019,10,11,2/13/2019,15.3
+46859347,1,12/2/2002,San Francisco,94102,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,10/4/2018,15.8
+46859411,1,12/18/2000,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,6/12/2019,10,11,5/10/2019,18.4
+46860241,1,11/16/2010,San Francisco,94131,African American/Other Black,Male,Other,8/20/2018,2,3,8/6/2019,8.7
+46861070,1,5/13/2002,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,6/12/2019,10,11,10/2/2018,16.4
+46861947,1,10/6/2001,San Francisco,94132,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,10/2/2018,17
+46862005,1,1/27/2003,San Francisco,94112,Hispanic/Latinx,Male,Leadership HS Charter,8/20/2018,10,11,4/18/2019,16.2
+46862041,1,1/1/2002,San Francisco,94124,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,10/2/2018,16.8
+46862978,1,11/8/2003,Daly City,94015,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,11/15/2018,15
+46862989,1,6/20/2002,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,10/2/2018,16.3
+46863022,2,12/24/2002,San Francisco,94112,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,10/2/2018,15.8
+46863077,1,8/21/2002,San Francisco,94134,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,10/2/2018,16.1
+46863487,1,2/10/2003,San Francisco,94110,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,10/2/2018,15.7
+46863515,1,5/7/2002,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,6/12/2019,10,11,11/15/2018,16.5
+46863571,3,9/6/2002,San Francisco,94131,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,2/11/2019,16.4
+46864039,1,7/20/2011,San Francisco,94115,African American/Other Black,Male,Other,8/20/2018,2,3,8/6/2019,8.1
+46864094,3,7/24/2001,San Francisco,94103,Multiracial/Multiethnic,Female,Independence HS,11/5/2018,11,10,11/16/2018,17.3
+46864506,2,7/28/2004,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,2/11/2019,14.6
+46864547,1,10/26/2004,San Francisco,94122,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,13.9
+46864631,2,9/8/2003,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,11/15/2018,15.2
+46865216,3,11/11/2003,San Francisco,94117,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,10/4/2018,14.9
+46865225,1,9/29/2003,San Francisco,94134,Multiracial/Multiethnic,Female,Leadership HS Charter,8/20/2018,10,11,11/16/2018,15.1
+46865527,1,10/27/2010,San Francisco,94124,African American/Other Black,Female,Lakeshore ES,8/20/2018,2,3,8/6/2019,8.8
+46866159,2,5/30/2004,Richmond,94805,Hispanic/Latinx,Male,Mission HS,8/20/2018,9,10,2/11/2019,14.7
+46866602,1,4/13/2002,San Francisco,94102,Middle Eastern/Arab,Male,Mission HS,8/20/2018,10,11,10/2/2018,16.5
+46867481,1,5/2/2002,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,5/10/2019,17
+46867626,1,3/18/2010,San Francisco,94124,Declined to state/Other,Declined/Not Stated,Other,8/20/2018,3,4,8/6/2019,9.4
+46867952,2,3/11/2001,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,8/20/2018,11,11,12/14/2018,17.8
+46867974,1,9/2/2001,San Francisco,94109,Caucasian/ White,Male,Wells (Ida B) HS,4/8/2019,10,11,8/6/2019,17.9
+46868788,1,2/26/2009,San Francisco,94134,African American/Other Black,Female,Glen Park ES,8/20/2018,4,5,8/6/2019,10.4
+46868955,1,3/4/2003,San Francisco,94124,African American/Other Black,Male,Wells (Ida B) HS,4/10/2019,10,10,8/6/2019,16.4
+46868962,1,12/4/2002,San Francisco,94103,Middle Eastern/Arab,Male,Mission HS,8/20/2018,10,11,5/10/2019,16.4
+46868996,2,11/26/2003,San Francisco,94124,African American/Other Black,Male,Mission HS,8/20/2018,10,11,10/2/2018,14.9
+46869531,3,3/3/2003,San Francisco,94124,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,10/2/2018,15.6
+46869566,1,6/2/2003,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,10/2/2018,15.3
+46871021,1,11/6/2000,San Francisco,94131,Hispanic/Latinx,Female,Mission HS,8/20/2018,10,11,10/2/2018,17.9
+46871067,1,8/22/2001,San Francisco,94102,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,11/15/2018,17.2
+46871123,2,1/20/2003,San Francisco,94114,Caucasian/ White,Male,Mission HS,8/20/2018,10,11,10/2/2018,15.7
+46871778,1,6/27/2008,San Francisco,94124,African American/Other Black,Male,Lilienthal (Claire) K-8,8/20/2018,4,5,11/16/2018,10.4
+46872027,1,8/12/2010,San Francisco,94124,African American/Other Black,Female,Other,8/20/2018,3,4,8/6/2019,9
+46872664,1,11/8/2003,San Francisco,94112,African American/Other Black,Female,Leadership HS Charter,8/20/2018,10,11,10/2/2018,14.9
+46872666,1,10/3/2003,San Francisco,94118,Caucasian/ White,Female,Lowell HS,8/20/2018,10,11,8/6/2019,15.9
+46872961,1,6/13/2009,San Francisco,94124,African American/Other Black,Female,Lilienthal (Claire) K-8,8/20/2018,4,5,11/16/2018,9.4
+46872993,1,8/22/2008,San Francisco,94124,African American/Other Black,Male,Rooftop K-8,8/20/2018,4,5,8/6/2019,11
+46873066,1,4/22/2009,San Francisco,94124,African American/Other Black,Female,Carver (Dr George W) ES,8/20/2018,4,5,11/16/2018,9.6
+46873375,1,4/13/2009,San Francisco,94124,African American/Other Black,Female,Lakeshore ES,8/20/2018,4,5,8/6/2019,10.3
+46875282,5,2/13/2003,San Francisco,94124,African American/Other Black,Male,Mission HS,6/12/2019,10,11,10/2/2018,15.6
+46875301,1,11/22/2003,San Francisco,94110,Hispanic/Latinx,Male,Leadership HS Charter,8/20/2018,10,11,4/18/2019,15.4
+46875342,1,8/25/2002,San Francisco,94134,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,3/22/2019,16.6
+46875344,1,10/22/2002,San Francisco,94109,Caucasian/ White,Male,Lowell HS,8/20/2018,10,11,8/6/2019,16.8
+46876069,1,3/28/2010,San Francisco,94118,Multiracial/Multiethnic,Male,Parks (Rosa) ES,8/20/2018,3,4,8/6/2019,9.4
+46876799,4,3/8/2003,San Francisco,94134,Caucasian/ White,Female,Mission HS,8/20/2018,10,11,10/2/2018,15.6
+46876879,2,3/15/2002,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,8/20/2018,10,11,11/15/2018,16.7
+46876883,2,3/21/2003,San Francisco,94102,Asian/Pacific Islander,Female,Lowell HS,8/20/2018,10,11,2/13/2019,15.9
+46877766,1,7/20/2010,San Francisco,94122,Declined to state/Other,Declined/Not Stated,Other,8/20/2018,3,4,8/6/2019,9.1
+46878126,1,2/17/2003,San Francisco,94131,Caucasian/ White,Male,Lowell HS,8/20/2018,10,11,8/6/2019,16.5
+46878330,1,9/18/2009,San Francisco,94124,African American/Other Black,Female,Carmichael (Bessie) K-8,8/20/2018,3,4,8/6/2019,9.9
+46882582,1,9/10/2008,San Francisco,94115,Declined to state/Other,Declined/Not Stated,Other,8/20/2018,5,6,8/6/2019,10.9
+46886683,1,9/20/2000,San Francisco,94112,Hispanic/Latinx,Male,Wells (Ida B) HS,8/20/2018,11,11,10/2/2018,18
+46886737,1,5/9/2000,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,8/20/2018,11,12,10/2/2018,18.4
+46887178,2,4/17/2007,San Francisco,94132,Hispanic/Latinx,Female,Aptos MS,8/20/2018,6,7,10/3/2018,11.5
+46890353,1,4/22/2009,San Francisco,94124,African American/Other Black,Female,Carver (Dr George W) ES,8/20/2018,4,5,11/16/2018,9.6
+46890828,1,6/4/2010,San Francisco,94103,Hispanic/Latinx,Male,Carmichael (Bessie) K-8,8/20/2018,3,4,8/6/2019,9.2
+46891897,1,5/31/2007,San Francisco,94127,Caucasian/ White,Female,Aptos MS,8/20/2018,6,7,10/3/2018,11.4
+46892101,1,8/2/2007,San Francisco,94112,Caucasian/ White,Male,Aptos MS,8/20/2018,6,7,2/15/2019,11.5
+46892821,1,4/25/2006,San Francisco,94121,Declined to state/Other,Declined/Not Stated,Hoover (Herbert) MS,8/20/2018,7,8,8/6/2019,13.3
+46893082,1,2/25/2008,San Francisco,94124,African American/Other Black,Female,Glen Park ES,8/20/2018,5,6,11/16/2018,10.7
+46893469,2,9/2/2006,San Francisco,94129,Declined to state/Other,Female,Marina MS,8/20/2018,6,7,11/16/2018,12.2
+46893706,2,3/12/2007,San Francisco,94122,Declined to state/Other,Female,Giannini (A.P.) MS,8/20/2018,6,7,11/16/2018,11.7
+46893742,1,11/4/2006,San Francisco,94107,Declined to state/Other,Male,Aptos MS,8/20/2018,6,7,4/5/2019,12.4
+46894320,2,11/27/2006,San Francisco,94122,Asian/Pacific Islander,Female,Aptos MS,8/20/2018,6,7,10/3/2018,11.9
+46894801,1,7/26/2007,San Francisco,94115,Declined to state/Other,Male,Milk (Harvey) Civil Right ES,8/20/2018,5,6,11/16/2018,11.3
+46894961,1,12/27/2007,San Francisco,94124,Declined to state/Other,Declined/Not Stated,Rooftop K-8,8/20/2018,5,6,8/6/2019,11.6
+46895808,2,1/5/2007,San Francisco,94132,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,6,7,2/15/2019,12.1
+46896188,1,8/22/2008,San Francisco,94132,Multiracial/Multiethnic,Female,Parks (Rosa) ES,8/20/2018,5,6,8/6/2019,11
+46896561,1,12/14/2006,San Francisco,94112,African American/Other Black,Male,Aptos MS,8/20/2018,6,7,4/5/2019,12.3
+46896750,1,4/10/2004,San Francisco,94122,Declined to state/Other,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.5
+46897422,1,4/22/2007,San Francisco,94110,Caucasian/ White,Female,Aptos MS,8/20/2018,6,7,7/29/2019,12.3
+46897487,1,12/21/2006,San Francisco,94112,Caucasian/ White,Male,Aptos MS,8/20/2018,6,7,10/3/2018,11.8
+46897549,4,3/14/2007,San Francisco,94132,Declined to state/Other,Male,Aptos MS,8/20/2018,6,7,10/3/2018,11.6
+46897577,1,8/1/2007,San Francisco,94115,African American/Other Black,Male,Aptos MS,8/20/2018,6,7,10/3/2018,11.2
+46897874,1,5/29/2008,San Francisco,94124,African American/Other Black,Male,Glen Park ES,8/20/2018,5,6,11/16/2018,10.5
+46898292,2,6/7/2007,San Francisco,94134,Asian/Pacific Islander,Female,Aptos MS,8/20/2018,6,7,10/10/2018,11.4
+46898453,1,11/24/2003,San Francisco,94127,Middle Eastern/Arab,Female,Lowell HS,8/20/2018,9,10,10/2/2018,14.9
+46898738,1,6/18/2007,San Francisco,94124,African American/Other Black,Female,Aptos MS,8/20/2018,6,7,4/5/2019,11.8
+46898818,1,2/9/2007,San Francisco,94116,Declined to state/Other,Male,Aptos MS,8/20/2018,6,7,4/5/2019,12.2
+46898869,2,9/22/2007,San Francisco,94134,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,6,7,10/10/2018,11.1
+46899499,1,1/20/2007,San Francisco,94134,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,6,7,2/15/2019,12.1
+46899585,1,6/3/2007,San Francisco,94132,African American/Other Black,Female,Aptos MS,8/20/2018,6,7,4/19/2019,11.9
+46899615,1,9/16/2006,San Francisco,94134,African American/Other Black,Female,Rooftop K-8,8/20/2018,7,8,11/16/2018,12.2
+46899890,1,5/2/2008,San Francisco,94124,African American/Other Black,Female,Glen Park ES,8/20/2018,5,6,11/16/2018,10.5
+46900269,1,8/16/2007,San Francisco,94134,Declined to state/Other,Male,Aptos MS,8/20/2018,6,7,4/5/2019,11.6
+46900329,1,8/22/2007,San Francisco,94131,Declined to state/Other,Male,Aptos MS,8/20/2018,6,7,4/5/2019,11.6
+46901050,2,9/14/2007,San Francisco,94115,African American/Other Black,Male,Giannini (A.P.) MS,6/12/2019,6,7,11/16/2018,11.2
+46901108,2,10/18/2006,San Francisco,94124,African American/Other Black,Male,Aptos MS,8/20/2018,6,7,2/15/2019,12.3
+46901198,1,8/3/2007,San Francisco,94132,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,6,7,7/29/2019,12
+46903631,1,8/28/2008,San Francisco,94118,African American/Other Black,Male,Lilienthal (Claire) K-8,8/20/2018,5,6,11/16/2018,10.2
+46904225,1,7/22/2004,San Francisco,94114,Asian/Pacific Islander,Female,Lowell HS,8/20/2018,9,10,8/5/2019,15
+46906175,1,9/16/2006,San Francisco,94132,Declined to state/Other,Male,Aptos MS,8/20/2018,7,8,7/29/2019,12.9
+46906440,2,12/18/2005,San Francisco,94112,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,7,8,10/3/2018,12.8
+46906790,1,2/14/2006,San Francisco,94118,African American/Other Black,Female,Lilienthal (Claire) K-8,8/20/2018,7,8,11/16/2018,12.8
+46907262,1,11/13/2005,San Francisco,94114,Caucasian/ White,Male,Aptos MS,8/20/2018,8,8,10/2/2018,12.9
+46907807,2,11/22/2006,San Francisco,94134,Asian/Pacific Islander,Male,Aptos MS,8/20/2018,7,8,2/15/2019,12.2
+46908206,1,3/28/2006,San Francisco,94112,Asian/Pacific Islander,Female,Aptos MS,8/20/2018,7,8,2/15/2019,12.9
+46908729,1,4/16/2005,San Francisco,94110,Declined to state/Other,Male,Aptos MS,8/20/2018,8,9,7/29/2019,14.3
+46909753,1,5/14/2005,San Francisco,94112,Multiracial/Multiethnic,Female,Rooftop K-8,8/20/2018,8,9,11/16/2018,13.5
+46909858,1,8/30/2005,San Francisco,94115,Declined to state/Other,Female,Roosevelt MS,8/20/2018,8,9,11/16/2018,13.2
+46910286,1,4/26/2006,San Francisco,94124,African American/Other Black,Female,Other,8/20/2018,7,8,11/16/2018,12.6
+46991083,2,8/18/2004,San Francisco,94112,Caucasian/ White,Female,Mission HS,8/20/2018,9,10,2/11/2019,14.5
+47027379,1,7/19/2003,San Francisco,94124,Multiracial/Multiethnic,Male,Balboa HS,6/12/2019,10,11,5/31/2019,15.9
+47228286,1,4/24/2011,San Francisco,94124,African American/Other Black,Female,Lilienthal (Claire) K-8,8/20/2018,2,3,8/6/2019,8.3
+47346915,7,2/25/2004,San Francisco,94107,Caucasian/ White,Male,Mission HS,8/27/2018,9,10,3/7/2019,15
+47433636,1,12/3/2002,San Francisco,94103,Hispanic/Latinx,Male,Mission HS,9/5/2018,10,11,11/15/2018,16
+47433659,1,6/5/2011,San Francisco,94118,African American/Other Black,Female,Other,9/5/2018,2,3,8/6/2019,8.2
+47513499,1,11/17/2001,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,9/14/2018,10,11,11/15/2018,17
+47600251,1,4/26/2001,San Francisco,94112,Hispanic/Latinx,Female,Mission HS,6/12/2019,10,11,6/3/2019,18.1
+47627212,2,5/10/2001,San Francisco,94102,Hispanic/Latinx,Female,Mission HS,10/15/2018,10,11,11/15/2018,17.5
+47685963,1,2/10/2001,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,11/8/2018,10,11,6/3/2019,18.3
+47728952,1,7/1/2002,San Francisco,94132,Hispanic/Latinx,Male,Mission HS,11/30/2018,10,11,5/10/2019,16.9
+47793648,1,7/23/2001,San Francisco,94132,Hispanic/Latinx,Male,Mission HS,6/12/2019,10,11,5/14/2019,17.8
+47835429,1,5/9/2001,San Francisco,94110,Hispanic/Latinx,Transgender,Mission HS,1/24/2019,10,11,5/30/2019,18.1
+48068072,1,7/2/2003,San Francisco,94124,African American/Other Black,Male,Mission HS,4/11/2019,10,11,5/30/2019,15.9
