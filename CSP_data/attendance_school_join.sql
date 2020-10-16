@@ -58,6 +58,8 @@ CREATE TABLE attended_activity (
 	Minutes_Attended REAL );
 	
 SELECT * FROM attended_activity
+SELECT * FROM schools
+SELECT * FROM participant_activity_attendance
 
 DROP TABLE attended_activity
 	
@@ -76,16 +78,51 @@ SELECT
 	   cool.total_program_days
 INTO participant_activity_attendance
 FROM attended_activity as aa 
-INNER JOIN schools as cool
+LEFT JOIN schools as cool
 ON aa.activity_instance_id = cool.activity_instance_id
+DROP TABLE participant_activity_attendance
+
+SELECT * FROM participant_activity_attendance
+
+-- Join attendance with participant and activity information
+SELECT 
+	paa.activity_instance_id,
+	paa.activity_name,
+	paa.activity_label,
+	paa.school,
+	paa.start_date,
+	paa.end_date,
+	ml.participant_id,
+	ml.distinct_program_count
+FROM machine_learning_data as ml
+RIGHT JOIN participant_activity_attendance as paa
+ON paa.participant_id = ml.participant_id
 
 
+CREATE TABLE repeating_participants (
+	Participant_ID INT,
+	Activity_Instance_ID INT,
+	Activity_Attendance INT
+)
 
+DROP TABLE repeating_participants
 
-
-
-
-
+-- Create table for participant attendance by program
+SELECT rep.participant_id,
+	   rep.activity_instance_id,
+	   rep.activity_attendance,
+	   cool.fiscal_year,
+	   cool.activity_name,
+	   cool.activity_category,
+	   cool.activity_label,
+	   cool.school,
+	   cool.start_date,
+	   cool.end_date,
+	   cool.total_program_days
+INTO repeat_participants
+FROM repeating_participants as rep
+INNER JOIN schools as cool
+ON rep.activity_instance_id = cool.activity_instance_id
 
 
 
