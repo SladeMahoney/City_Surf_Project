@@ -1,0 +1,50 @@
+participant_id,date_of_birth,city,home_zip_code,race_ethnicity,gender,school_attending,school_entry_date,grade_level_fy18_19,grade_level_fy19_20,csp_enrollment_date,csp_approx_enrollment_age
+46846158,2003-09-14,San Francisco,94112,Caucasian/ White,Male,Mission HS,2018-08-20,10,11,2019-05-14,15.7
+46868962,2002-12-04,San Francisco,94103,Middle Eastern/Arab,Male,Mission HS,2018-08-20,10,11,2019-05-10,16.4
+46850784,2004-11-08,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2019-06-12,9,10,2019-05-10,14.5
+46871021,2000-11-06,San Francisco,94131,Hispanic/Latinx,Female,Mission HS,2018-08-20,10,11,2018-10-02,17.9
+47685963,2001-02-10,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2018-11-08,10,11,2019-06-03,18.3
+47600251,2001-04-26,San Francisco,94112,Hispanic/Latinx,Female,Mission HS,2019-06-12,10,11,2019-06-03,18.1
+46852855,2004-01-13,San Francisco,94134,Hispanic/Latinx,Male,Mission HS,2019-06-12,9,10,2019-05-10,15.3
+46851292,2001-11-09,San Francisco,94110,Declined to state/Other,Female,Mission HS,2018-08-20,10,11,2019-05-10,17.5
+46869566,2003-06-02,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,2018-08-20,10,11,2018-10-02,15.3
+46847639,2003-05-14,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,2019-06-12,10,11,2019-05-10,16
+46858392,2004-01-13,San Francisco,94134,Hispanic/Latinx,Male,Mission HS,2018-08-20,9,10,2019-03-22,15.2
+47433636,2002-12-03,San Francisco,94103,Hispanic/Latinx,Male,Mission HS,2018-09-05,10,11,2018-11-15,16
+46851696,2003-11-18,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,2018-08-20,9,10,2019-05-10,15.5
+48068072,2003-07-02,San Francisco,94124,African American/Other Black,Male,Mission HS,2019-04-11,10,11,2019-05-30,15.9
+47728952,2002-07-01,San Francisco,94132,Hispanic/Latinx,Male,Mission HS,2018-11-30,10,11,2019-05-10,16.9
+46866602,2002-04-13,San Francisco,94102,Middle Eastern/Arab,Male,Mission HS,2018-08-20,10,11,2018-10-02,16.5
+46867481,2002-05-02,San Francisco,94110,Hispanic/Latinx,Female,Mission HS,2018-08-20,10,11,2019-05-10,17
+46859411,2000-12-18,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2019-06-12,10,11,2019-05-10,18.4
+46851954,2003-12-04,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2019-06-12,9,10,2019-05-10,15.4
+46871067,2001-08-22,San Francisco,94102,Hispanic/Latinx,Male,Mission HS,2018-08-20,10,11,2018-11-15,17.2
+46850177,2004-03-25,Richmond,94806,Hispanic/Latinx,Male,Mission HS,2019-06-12,9,10,2019-02-14,14.9
+46844856,2003-03-05,San Francisco,94124,Hispanic/Latinx,Male,Mission HS,2018-08-20,10,11,2019-03-22,16.1
+46859347,2002-12-02,San Francisco,94102,Hispanic/Latinx,Male,Mission HS,2018-08-20,10,11,2018-10-04,15.8
+46862041,2002-01-01,San Francisco,94124,Hispanic/Latinx,Female,Mission HS,2019-06-12,10,11,2018-10-02,16.8
+46855688,2001-12-10,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,2019-06-12,10,11,2018-11-15,16.9
+46875344,2002-10-22,San Francisco,94109,Caucasian/ White,Male,Lowell HS,2018-08-20,10,11,2019-08-06,16.8
+46862989,2002-06-20,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2018-08-20,10,11,2018-10-02,16.3
+46853895,2001-03-18,San Francisco,94112,Asian/Pacific Islander,Female,Mission HS,2019-06-12,10,11,2018-10-02,17.6
+46878126,2003-02-17,San Francisco,94131,Caucasian/ White,Male,Lowell HS,2018-08-20,10,11,2019-08-06,16.5
+46843828,2004-07-06,San Francisco,94132,Hispanic/Latinx,Male,Lincoln (Abraham) HS,2019-01-07,9,10,2019-02-14,14.6
+46848575,2001-10-21,San Francisco,94134,Hispanic/Latinx,Female,Mission HS,2018-08-20,10,11,2018-11-15,17.1
+46854679,2004-03-20,San Francisco,94103,Hispanic/Latinx,Male,Mission HS,2018-08-20,9,10,2019-05-10,15.1
+46862978,2003-11-08,Daly City,94015,Hispanic/Latinx,Female,Mission HS,2019-06-12,10,11,2018-11-15,15
+46872666,2003-10-03,San Francisco,94118,Caucasian/ White,Female,Lowell HS,2018-08-20,10,11,2019-08-06,15.9
+47793648,2001-07-23,San Francisco,94132,Hispanic/Latinx,Male,Mission HS,2019-06-12,10,11,2019-05-14,17.8
+46875342,2002-08-25,San Francisco,94134,Caucasian/ White,Female,Mission HS,2018-08-20,10,11,2019-03-22,16.6
+46843869,2004-01-17,San Francisco,94122,Declined to state/Other,Declined/Not Stated,Independence HS,2018-08-20,9,11,2019-08-06,15.6
+46861070,2002-05-13,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2019-06-12,10,11,2018-10-02,16.4
+46863515,2002-05-07,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2019-06-12,10,11,2018-11-15,16.5
+47513499,2001-11-17,San Francisco,94110,Hispanic/Latinx,Male,Mission HS,2018-09-14,10,11,2018-11-15,17
+46890828,2010-06-04,San Francisco,94103,Hispanic/Latinx,Male,Carmichael (Bessie) K-8,2018-08-20,3,4,2019-08-06,9.2
+47835429,2001-05-09,San Francisco,94110,Hispanic/Latinx,Transgender,Mission HS,2019-01-24,10,11,2019-05-30,18.1
+46850944,2004-04-21,San Francisco,94112,Hispanic/Latinx,Male,Other,2018-08-20,9,10,2019-02-14,14.8
+46849096,2003-01-17,San Francisco,94103,Hispanic/Latinx,Female,Mission HS,2018-08-20,10,11,2019-05-10,16.3
+46843305,2001-08-21,San Francisco,94110,Asian/Pacific Islander,Male,Mission HS,2018-08-20,10,11,2018-11-15,17.2
+46861947,2001-10-06,San Francisco,94132,Hispanic/Latinx,Female,Mission HS,2019-06-12,10,11,2018-10-02,17
+46904225,2004-07-22,San Francisco,94114,Asian/Pacific Islander,Female,Lowell HS,2018-08-20,9,10,2019-08-05,15
+46843348,2000-06-26,San Francisco,94134,Asian/Pacific Islander,Male,Mission HS,2019-06-12,10,11,2018-10-02,18.3
+46852831,2004-04-28,San Francisco,94112,Hispanic/Latinx,Male,Mission HS,2018-08-20,9,10,2019-05-14,15.1
