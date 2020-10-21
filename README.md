@@ -19,6 +19,9 @@ The Department of Children, Youth and Family Services (DCYFS) in San Francisco p
 2. Two spreadsheets on school hosts and CSP programs
 3. One spreadsheet on student demographics 
 
+### Entity Relationship Diagram
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/ERD.PNG)
+
 ### Limitations of Data
 - The datasets are small, the largest sheet is of attendance records for all programs (~5,000 rows)
 - Program and participant data collection is recent, ongoing for only 2 years
@@ -51,7 +54,9 @@ Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yC
 We created our dashboard using the Tableau software. The outline of our slides below describes the structure of our presentation, combining the analysis sections wished to be explored by CSP and by Slade and Elena. 
 
 ### Interative Elements & Visualizations
-- The map of student distribution across the city, specifically showing what parts of the city participants live in
+- The city map shows the distribution of CSP participants across San Francisco and the Bay Area. Users can hover their cursor over each bubble, and the rings within each bubble on the map displays a marker with the number of participants living in that zip code and the schools they attend. 
+
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/CityMap.PNG)
 
 ## Staying with CSP: Using Machine Learning for the Mission
 We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission and outreach strategies.
@@ -80,6 +85,8 @@ The machine learning dataset resulted from a join between columns from both the 
 2. Home Zip Code
 3. Race/Ethnicity
 
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/weight.PNG)
+
 ### Limitations of Machine Learning 
 Small data set
 Unequal opportunities at schools 
@@ -87,12 +94,8 @@ Data not complete (attendance sheet/demographic sheet)
 
 
 ## Results
-Confusion Matrix -- insert pic
-
-Accuracy Score: 0.766
-
-Classification Report -- insert pic
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/matrix_scores.PNG)
 
 ## Recommendations 
-- Narrow the gap between participants listed in the student demographic information sheet and those in the attendance records. Aiming for a similar student distribution in both sheets can support future analyses; no students are left behind and it makes for a clearer representation of participants
+- Narrow the gap between participants listed in the student demographic information sheet and those in the attendance records. Aiming for a similar student distribution in both sheets can support future analyses; no students are left behind and it makes for a clearer representation of participants.
 
