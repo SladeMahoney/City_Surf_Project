@@ -6,11 +6,12 @@ City Surf Project (CSP) is a non-profit in San Francisco that takes students fro
 Elena and Slade want to use data analysis to support meaningful work happening in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would now like to gain a better understanding of what areas of San Francisco their students come from, trends in attendance rates, and what students are most likely to show up for their programs. Ideally, they are looking to use data analysis to support the evaluation of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy-mapping. The purpose of our findings are to help highlight the trends and visualizations in their data needed to secure donor funding, grant funding, and increased support from the community to continue and potentially expand their programming in San Francisco. Elena and Slade offered their services as volunteer data analysts because they believe organizations like CSP need storytelling with data to help expand their mission and shape their work.
 
 ## Tools & Technologies 
+Below are the tools and softwares used to explore, prepare, and manage the data for analyses and visual preparation
 - Python 
-- Pandas
-- PostgreSQL 
+- Pandas / Jupyter Notebook
+- PostgreSQL /PgAdmin
 - Tableau 
-- SciKit Learn's Random Forest Classifier
+- SciKit-Learn Library
 
 ## Data Source
 The Department of Children, Youth and Family Services (DCYFS) in San Francisco provides a portal for records of organizations like CSP. Within this portal is a database of CSP's data. Four CSV files were extracted and provided to Slade and Elena. 
@@ -19,30 +20,29 @@ The Department of Children, Youth and Family Services (DCYFS) in San Francisco p
 3. One spreadsheet on student demographics 
 
 ### Limitations of Data
-Small data set 
-Programs have been ongoing for only 2 years
-Incomplete and often inconsistent data 
-Small non-profit with limited data resources
+- The datasets are small, the largest sheet is of attendance records for all programs (~5,000 rows)
+- Program and participant data collection is recent, ongoing for only 2 years
+- Incomplete participant information and discrepancies in extracted files
+- Small non-profit with limited data resources and tools
 
 ### Positives of Data
-Student demographic data
-For limited data, very descriptive
-Excellent primary/foreign keys
-Relatively clean
+- Student demographic information is thorough 
+- Ability to perform joins, appropriate primary and foreign keys
+- The data is relatively clean and easy to explore
 
 ## Questions / Analysis Goals
-CSP's analysis goals are categorized into the following: 
+Both CSP and Slade and Elena's analysis goals are categorized into the following: 
 
 #### Demographic Information of CSP Participants
-Where do most students go to school? 
-What age group is most likely to join CSP for the first time? 
-Where do students live? 
+- Where do students live (by zip code)?
+- Where do most students go to school? 
+- What age group is most likely to join CSP for the first time? 
 
 #### Programmatic Information
-How many students will join another CSP program? 
-What are the attendance trends for long-term programs? 
-How many students only take one course?
- 
+- Which students are only one-time participants?
+- How many students join other CSP programs (returning participants)?
+- What are the attendance trends for short and long-term programs? 
+- Predicting potential CSP participants
 
 ## Presentation & Dashboard
 Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
@@ -52,37 +52,33 @@ We created our dashboard using the Tableau software. The outline of our slides b
 
 ### Interative Elements & Visualizations
 - The map of student distribution across the city, specifically showing what parts of the city participants live in
-- Users may input certain student characteristics and the model will calculate the likelihood that student will participate in CSP programs 
-
 
 ## Staying with CSP: Using Machine Learning for the Mission
-We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission.
-Rather than giving a clear answer, it can help CSP ask greater questions about their outreach strategies and inclusivity goals. 
+We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission and outreach strategies.
 
 ### Question
 Will a student return to CSP Programs?
 
+### Models Explored
+A comparative analysis between Logistic Regression and Random Forest Classifier found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. The data was scaled prior to setting the training and testing sets and it was label encoded to transform all string data type columns into numeric. 
+
+
 ### Feature Selection
-- Program Type
-- Grade Level
-- Date of Birth
+The features listed below were carefully chosen because they contribute uniquely to participants' identity and relate to CSP's inclusivity goals
+- Age of Enrollment 
 - Ethnicity/Race
 - Gender
 - Home Zip Code
 - School Attending
-- % of Total Classes Attended
+- CSP Enrollment Date
 
 ### Data Preprocessing
-
 The machine learning dataset resulted from a join between columns from both the student demographic and a transformed attendance sheet that shows student’s demographic information and how many different CSP programs they attended. 
 
-
-
 ### Feature Importance
-1. CSP Enrollment Age
+1. CSP Enrollment Age 
 2. Home Zip Code
 3. Race/Ethnicity
-
 
 ### Limitations of Machine Learning 
 Small data set
@@ -90,14 +86,13 @@ Unequal opportunities at schools
 Data not complete (attendance sheet/demographic sheet)
 
 
-### Benefits
-
-TBD
-
 ## Results
+Confusion Matrix -- insert pic
 
-TBD
+Accuracy Score: 0.766
 
+Classification Report -- insert pic
 
 ## Recommendations 
+- Narrow the gap between participants listed in the student demographic information sheet and those in the attendance records. Aiming for a similar student distribution in both sheets can support future analyses; no students are left behind and it makes for a clearer representation of participants
 
