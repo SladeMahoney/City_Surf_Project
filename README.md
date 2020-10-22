@@ -5,10 +5,11 @@ City Surf Project (CSP) is a non-profit in San Francisco that takes students fro
 Website: https://www.citysurfproject.com/about/
 
 CSP Programs Analyzed
-- Intro to Surfing
-- Surfing 101 High School (HS)
-- Surfing 101 Middle School (MS)
-- Surf Instructor Leadership Training (Summer-SILT) 
+- Intro to Surfing - one day events
+- Surfing 101 High School (HS) - after school for ~17 weeks
+- Surfing 101 Middle School (MS) - after school for ~9 weeks
+- Surf Instructor Leadership Training (SILT) - Summer Program K-12
+- Other: Surf Club - optional
 
 Top Partner Public Schools
 - Mission High School
@@ -86,14 +87,15 @@ _*Note: Student demographic information is only available for students with comp
 
 #### Returning Students
 - Number of Times Students Attended a Unique Program Activity
+
 Most students take one class, usually  by attending one day events (surf trips). About 1 in 10 students takes 3+ classes with CSP, whether they are registered or not. This is for all program activities offered throughout the year for many grade levels. 
 
 <img src="https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/distinctactivity.PNG" width="650">
 
 - Multi-Program Students
+
 This graph has grouped students in CSP with participation across multiple programs. When users hover their cursor over each bar, a popup marker displays the Activity Name, Participant ID and the number of times the student has joined the distinct program activity (not single attendances).
 <img src="https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/multiprogram.PNG" width="630">
-
 
 #### Attendance Trends
 Attendance count for all programs, single-day surf trips and long-term programs (260+ days).
@@ -105,12 +107,12 @@ We created a supervised machine learning model to predict what type of students 
 ### Question
 Will a student return to CSP Programs?
 
-### Models Explored
-A comparative analysis between Logistic Regression and Random Forest Classifier found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. The data was scaled prior to setting the training and testing sets and it was label encoded to transform all string data type columns into numeric. 
-
+### Data Preprocessing
+The machine learning dataset resulted from a join between columns from both the student demographic and a transformed attendance sheet that shows student’s demographic information and how many different CSP programs they attended. Unnecessary columns were dropped to narrow our focus. The data was scaled prior to setting the training and testing sets and some columns (Gender, City, Race/Ethnicity, School Attending, Enrollment Date) were encoded to transform string data type columns into numeric. 
 
 ### Feature Selection
-The features listed below were carefully chosen because they contribute uniquely to participants' identity and relate to CSP's inclusivity goals
+The features listed below were carefully selected because they contribute uniquely to participants' identity and relate to CSP's inclusivity goals. Question and factors were carefully chosen to protect students and CSP.
+
 - Age of Enrollment 
 - Ethnicity/Race
 - Gender
@@ -118,8 +120,8 @@ The features listed below were carefully chosen because they contribute uniquely
 - School Attending
 - CSP Enrollment Date
 
-### Data Preprocessing
-The machine learning dataset resulted from a join between columns from both the student demographic and a transformed attendance sheet that shows student’s demographic information and how many different CSP programs they attended. 
+### Models Explored
+A comparative analysis between Logistic Regression and Random Forest Classifier (RFC) found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. 
 
 ### Feature Importance
 1. CSP Enrollment Age 
@@ -129,14 +131,18 @@ The machine learning dataset resulted from a join between columns from both the 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/weight.PNG)
 
 ### Limitations of Machine Learning 
-Small data set
-Unequal opportunities at schools 
-Data not complete (attendance sheet/demographic sheet)
-
+- Small data set; complete information for only 186 students used for this model
+- Unequal opportunities at schools, a disadvantage with RFC weighted feature process
+- Discrepancies and incomplete data sets (attendance sheet/demographic sheet)
 
 ## Results
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/matrix_scores.PNG)
 
 ## Recommendations 
-- Narrow the gap between participants listed in the student demographic information sheet and those in the attendance records. Aiming for a similar student distribution in both sheets can support future analyses; no students are left behind and it makes for a clearer representation of participants.
+### For Future Analysis
+- Outstanding research goals included analyzing the length of time students are with CSP, analyzing sibling engagement within CSP programs
+- Aim for more robust data collection; a similar distribution of recorded participants for both student demographic information and attendance records
+- Narrowing the gap in participant discrepancies can allow the data to show a clearer representation of participants in that no students are left behind 
 
+### Workflow Process
+- Assign clear boundaries in project workflow to avoid issues with branching
