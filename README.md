@@ -2,6 +2,22 @@
 ## Data Analysis of City Surf Project Programs
 City Surf Project (CSP) is a non-profit in San Francisco that takes students from underserved communities throughout San Francisco surfing to teach them about the importance of physical exercise and expose them to the benefits of nature and the sport. Their programs allow students to fulfill their PE requirement in certain San Francisco Unified School District (SFUSD) schools. 
 
+Website: https://www.citysurfproject.com/about/
+
+CSP Programs Analyzed
+- Intro to Surfing - one day events
+- Surfing 101 High School (HS) - after school for ~17 weeks
+- Surfing 101 Middle School (MS) - after school for ~9 weeks
+- Surf Instructor Leadership Training (SILT) - Summer Program K-12
+- Other: Surf Club - optional
+
+Top Partner Public Schools
+- Mission High School
+- Leadership High School
+- Independence High School
+- Ida B Wells
+- Aptos Middle School
+
 ## Purpose 
 Elena and Slade want to use data analysis to support meaningful work happening in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would now like to gain a better understanding of what areas of San Francisco their students come from, trends in attendance rates, and what students are most likely to show up for their programs. Ideally, they are looking to use data analysis to support the evaluation of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy-mapping. The purpose of our findings are to help highlight the trends and visualizations in their data needed to secure donor funding, grant funding, and increased support from the community to continue and potentially expand their programming in San Francisco. Elena and Slade offered their services as volunteer data analysts because they believe organizations like CSP need storytelling with data to help expand their mission and shape their work.
 
@@ -47,16 +63,43 @@ Both CSP and Slade and Elena's analysis goals are categorized into the following
 - What are the attendance trends for short and long-term programs? 
 - Predicting potential CSP participants
 
-## Presentation & Dashboard
+## Presentation & Final Dashboard
 Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
 
-### Final Dashboard 
-We created our dashboard using the Tableau software. The outline of our slides below describes the structure of our presentation, combining the analysis sections wished to be explored by CSP and by Slade and Elena. 
+Tableau Desktop Link:
 
-### Interative Elements & Visualizations
+### Analysis Results 
 - The city map shows the distribution of CSP participants across San Francisco and the Bay Area. Users can hover their cursor over each bubble, and the rings within each bubble on the map displays a marker with the number of participants living in that zip code and the schools they attend. 
 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/CityMap.PNG)
+
+#### CSP Participant Breakdown
+
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/Demog.PNG)
+<img src= "https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/Age_Enr.PNG" width="650">
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/schoolpartners.PNG)
+
+
+#### One-Time High School Participants
+One-time participants are defined as high school students who are registered with CSP and only attend a CSP activity once. A total of 161 high school students attended CSP programs once between 2018-2020, but only 49 students had complete registration. 
+
+_*Note: Student demographic information is only available for students with completed registrations_
+
+#### Returning Students
+- Number of Times Students Attended a Unique Program Activity
+
+Most students take one class, usually  by attending one day events (surf trips). About 1 in 10 students takes 3+ classes with CSP, whether they are registered or not. This is for all program activities offered throughout the year for many grade levels. 
+
+<img src="https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/distinctactivity.PNG" width="650">
+
+- Multi-Program Students
+
+This graph has grouped students in CSP with participation across multiple programs. When users hover their cursor over each bar, a popup marker displays the Activity Name, Participant ID and the number of times the student has joined the distinct program activity (not single attendances).
+<img src="https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/multiprogram.PNG" width="630">
+
+#### Attendance Trends
+Attendance count for all programs, single-day surf trips and long-term programs (260+ days).
+![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/activityattendances.PNG)
 
 ## Staying with CSP: Using Machine Learning for the Mission
 We created a supervised machine learning model to predict what type of students are more likely to participate in CSP programs. This model is created with the intention of allowing CSP to better understand their student participant patterns, what students they most successfully serve and using that output to help highlight what other students are not participating or drop out early. With future students and data collection, future inputs into the model have the potential to assist CSP with their mission and outreach strategies.
@@ -64,12 +107,12 @@ We created a supervised machine learning model to predict what type of students 
 ### Question
 Will a student return to CSP Programs?
 
-### Models Explored
-A comparative analysis between Logistic Regression and Random Forest Classifier found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. The data was scaled prior to setting the training and testing sets and it was label encoded to transform all string data type columns into numeric. 
-
+### Data Preprocessing
+The machine learning dataset resulted from a join between columns from both the student demographic and a transformed attendance sheet that shows student’s demographic information and how many different CSP programs they attended. Unnecessary columns were dropped to narrow our focus. The data was scaled prior to setting the training and testing sets and some columns (Gender, City, Race/Ethnicity, School Attending, Enrollment Date) were encoded to transform string data type columns into numeric. 
 
 ### Feature Selection
-The features listed below were carefully chosen because they contribute uniquely to participants' identity and relate to CSP's inclusivity goals
+The features listed below were carefully selected because they contribute uniquely to participants' identity and relate to CSP's inclusivity goals. Question and factors were carefully chosen to protect students and CSP.
+
 - Age of Enrollment 
 - Ethnicity/Race
 - Gender
@@ -77,8 +120,8 @@ The features listed below were carefully chosen because they contribute uniquely
 - School Attending
 - CSP Enrollment Date
 
-### Data Preprocessing
-The machine learning dataset resulted from a join between columns from both the student demographic and a transformed attendance sheet that shows student’s demographic information and how many different CSP programs they attended. 
+### Models Explored
+A comparative analysis between Logistic Regression and Random Forest Classifier (RFC) found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. 
 
 ### Feature Importance
 1. CSP Enrollment Age 
@@ -88,14 +131,18 @@ The machine learning dataset resulted from a join between columns from both the 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/weight.PNG)
 
 ### Limitations of Machine Learning 
-Small data set
-Unequal opportunities at schools 
-Data not complete (attendance sheet/demographic sheet)
-
+- Small data set; complete information for only 186 students used for this model
+- Unequal opportunities at schools, a disadvantage with RFC weighted feature process
+- Discrepancies and incomplete data sets (attendance sheet/demographic sheet)
 
 ## Results
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/matrix_scores.PNG)
 
 ## Recommendations 
-- Narrow the gap between participants listed in the student demographic information sheet and those in the attendance records. Aiming for a similar student distribution in both sheets can support future analyses; no students are left behind and it makes for a clearer representation of participants.
+### For Future Analysis
+- Outstanding research goals included analyzing the length of time students are with CSP, analyzing sibling engagement within CSP programs
+- Aim for more robust data collection; a similar distribution of recorded participants for both student demographic information and attendance records
+- Narrowing the gap in participant discrepancies can allow the data to show a clearer representation of participants in that no students are left behind 
 
+### Workflow Process
+- Assign clear boundaries in project workflow to avoid issues with branching
