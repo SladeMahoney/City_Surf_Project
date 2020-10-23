@@ -121,7 +121,7 @@ The features listed below were carefully selected because they contribute unique
 - CSP Enrollment Date
 
 ### Models Explored
-A comparative analysis between Logistic Regression and Random Forest Classifier (RFC) found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the important of the chosen features through many decision-tree processes. 
+A comparative analysis between Logistic Regression and Random Forest Classifier (RFC) found that Sci-Kit Learn's Random Forest Classifier is a better model for CSP's data on returning students. This model computed a higher accuracy score and performed better due to its ability to weigh out the importance of the chosen features through many decision-tree processes. 
 
 ### Feature Importance
 1. CSP Enrollment Age 
@@ -130,19 +130,36 @@ A comparative analysis between Logistic Regression and Random Forest Classifier 
 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/weight.PNG)
 
-### Limitations of Machine Learning 
-- Small data set; complete information for only 186 students used for this model
-- Unequal opportunities at schools, a disadvantage with RFC weighted feature process
-- Discrepancies and incomplete data sets (attendance sheet/demographic sheet)
-
-## Results
+## Results: Confusion Matrix, Accuracy Score, and Classification Report
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/matrix_scores.PNG)
+
+- Actual 0 = True Negative - one-time participants
+- Actual 1 = True Positive - returned to CSP
+- Predicted 0 = False Positive
+- Predicted 1 = False Negative
+
+The Confusion Matrix shows the model can accurately predict 32 students to be one-time participants. This is the True Negative (TN). One student was predicted to return to CSP programs but in fact was a one-time participant (False Positive). 10 Students were predicted to be one-time participants but in fact returned to CSP Programs (False Negative). And finally 4 students were accurately predicted to return to CSP (True Positive). 
+
+The precision score is high because of the low false positive count. Recall score is high and accurate for one-time participants, but not for returning students. This is probably attributed to the on average, lower count of these students. 
+
+### Limitations of Machine Learning and Model of Choice
+- Small data turnout, complete information for only 186 students used for this model
+- Discrepancies between sheets (attendance sheet/demographic sheet) or incomplete data
+- Unequal opportunities at schools, a disadvantage with RFC weighted feature process
+- Strict feature selection creates narrow model and unavoidable bias 
+- Ethical concerns - protecting participant identity at any given cos
 
 ## Recommendations 
 ### For Future Analysis
-- Outstanding research goals included analyzing the length of time students are with CSP, analyzing sibling engagement within CSP programs
-- Aim for more robust data collection; a similar distribution of recorded participants for both student demographic information and attendance records
-- Narrowing the gap in participant discrepancies can allow the data to show a clearer representation of participants in that no students are left behind 
+
+Outstanding Research Goals
+- Length of time specific students are with CSP
+- Existence of sibling engagement within CSP programs
+
+More robust data collection
+- Similar distribution of recorded participants for both student demographic information and attendance records
+- Narrowing the gap in participant discrepancies can allow for more accurate visuals of representation in that no students are left behind 
 
 ### Workflow Process
-- Assign clear boundaries in project workflow to avoid issues with branching
+- Assign clear boundaries in project workflow to avoid issues with branching; more intentional with merges
+- Refining the statistical analysis on attendance and participation trends by program type and length
