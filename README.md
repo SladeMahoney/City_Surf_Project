@@ -2,55 +2,47 @@
 ## Data Analysis of City Surf Project Programs
 City Surf Project (CSP) is a non-profit in San Francisco that takes students from underserved communities throughout San Francisco surfing to teach them about the importance of physical exercise and expose them to the benefits of nature and the sport. Their programs allow students to fulfill their PE requirement in certain San Francisco Unified School District (SFUSD) schools. 
 
-Website: https://www.citysurfproject.com/about/
+Learn more about City Surf Project: https://www.citysurfproject.com/about/
 
 CSP Programs Analyzed
 - Intro to Surfing - one day events
 - Surfing 101 High School (HS) - after school for ~17 weeks
 - Surfing 101 Middle School (MS) - after school for ~9 weeks
 - Surf Instructor Leadership Training (SILT) - Summer Program K-12
-- Other: Surf Club - optional
-
-Top Partner Public Schools
-- Mission High School
-- Leadership High School
-- Independence High School
-- Ida B Wells
-- Aptos Middle School
+- Other: Surf Club - optional (grouped with Intro to Surfing)
 
 ## Purpose 
-Elena and Slade want to use data analysis to support meaningful work happening in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would now like to gain a better understanding of what areas of San Francisco their students come from, trends in attendance rates, and what students are most likely to show up for their programs. Ideally, they are looking to use data analysis to support the evaluation of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy-mapping. The purpose of our findings are to help highlight the trends and visualizations in their data needed to secure donor funding, grant funding, and increased support from the community to continue and potentially expand their programming in San Francisco. Elena and Slade offered their services as volunteer data analysts because they believe organizations like CSP need storytelling with data to help expand their mission and shape their work.
+We want to use data analytics to support meaningful work in companies and organizations that are doing good for our communities. CSP began collecting data about their students and programs in 2018 and would like to gain a better understanding of what areas of San Francisco their students come from, trends in attendance rates, and which students are most likely to show up for their programs. Ideally, they are looking to use data analytics to support the evaluation of their programs and finds any gaps that they could work on to improve their programming, outreach and overall strategy. The purpose of our findings are to help highlight trends and create visualizations that could help secure additional donor funding, grant funding, and increase support to continue and expand their programming in San Francisco.  Our work is founded in the belief that organizations like CSP can use storytelling with data to help expand their mission and shape their work. 
 
 ## Tools & Technologies 
 Below are the tools and softwares used to explore, prepare, and manage the data for analyses and visual preparation
 - Python 
 - Pandas / Jupyter Notebook
-- PostgreSQL /PgAdmin
+- PostgreSQL /PgAdmin / SQLAlchemy
 - Tableau 
 - SciKit-Learn Library
 
 ## Data Source
-The Department of Children, Youth and Family Services (DCYFS) in San Francisco provides a portal for records of organizations like CSP. Within this portal is a database of CSP's data. Four CSV files were extracted and provided to Slade and Elena. 
+The Department of Children, Youth and Family Services (DCYFS) in San Francisco requires that as part of their grant, organizations like CSP must keep records of their program attendance along with other demographic information. Four CSV files were extracted and provided by City Surf Project.
 1. One spreadsheet on activities and attendance dates per student
 2. Two spreadsheets on school hosts and CSP programs
 3. One spreadsheet on student demographics 
 
-### Entity Relationship Diagram
+## Entity Relationship Diagram & Data Exploration
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/ERD.PNG)
 
 ### Limitations of Data
-- The datasets are small, the largest sheet is of attendance records for all programs (~5,000 rows)
+- Datasets are small, the largest sheet is of attendance records for all programs (~5,000 rows)
 - Program and participant data collection is recent, ongoing for only 2 years
 - Incomplete participant information and discrepancies in extracted files
-- Small non-profit with limited data resources and tools
 
 ### Positives of Data
-- Student demographic information is thorough 
-- Ability to perform joins, appropriate primary and foreign keys
+- Student demographic information is descriptive
+- Ability to perform joins (inner), appropriate primary and foreign keys
 - The data is relatively clean and easy to explore
 
 ## Questions / Analysis Goals
-Both CSP and Slade and Elena's analysis goals are categorized into the following: 
+CSP Analysis goals are categorized into the following: 
 
 #### Demographic Information of CSP Participants
 - Where do students live (by zip code)?
@@ -66,19 +58,34 @@ Both CSP and Slade and Elena's analysis goals are categorized into the following
 ## Presentation & Final Dashboard
 Google Slides Link: https://docs.google.com/presentation/d/1uXzL_WvbdDjzIa7nO1yCg_7yLQpG2iWSsYcXShO_vI0/edit?usp=sharing
 
-Tableau Desktop Link:
+Tableau Desktop Link: https://public.tableau.com/profile/elena2311#!/vizhome/CSP_analysis/CitySurfProjectAnalysis
 
 ### Analysis Results 
-- The city map shows the distribution of CSP participants across San Francisco and the Bay Area. Users can hover their cursor over each bubble, and the rings within each bubble on the map displays a marker with the number of participants living in that zip code and the schools they attend. 
+- The city map shows the distribution of CSP participants across San Francisco and the Bay Area. Users can hover their cursor over each bubble, and the rings within each bubble on the map display a marker with the number of participants living in that zip code and the schools they attend. 
+
+Top 5 Home Zip Codes
+- 94110 (53 Students)
+- 94124 (46 Students)
+- 94112 (43 Students)
+- 94134 (32 Students)
+- 94132 (18 Students)
 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/CityMap.PNG)
 
-#### CSP Participant Breakdown
 
+#### CSP Participant Breakdown
+- The Race/Ethnicity and Gender pie charts are representative of CSP's mission as colorful slices of diversity and inclusion. 
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/Demog.PNG)
+- The average CSP Participant is just under 15 years of age.
 <img src= "https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/Age_Enr.PNG" width="650">
 ![alt text](https://github.com/SladeMahoney/City_Surf_Project/blob/Elena/images/schoolpartners.PNG)
 
+Top Partner Public Schools
+- Mission High School
+- Leadership High School
+- Independence High School
+- Ida B Wells
+- Aptos Middle School
 
 #### One-Time High School Participants
 One-time participants are defined as high school students who are registered with CSP and only attend a CSP activity once. A total of 161 high school students attended CSP programs once between 2018-2020, but only 49 students had complete registration. 
@@ -86,7 +93,7 @@ One-time participants are defined as high school students who are registered wit
 _*Note: Student demographic information is only available for students with completed registrations_
 
 #### Returning Students
-- Number of Times Students Attended a Unique Program Activity
+Number of Times Students Attended a Unique Program Activity
 
 Most students take one class, usually  by attending one day events (surf trips). About 1 in 10 students takes 3+ classes with CSP, whether they are registered or not. This is for all program activities offered throughout the year for many grade levels. 
 
@@ -140,7 +147,7 @@ A comparative analysis between Logistic Regression and Random Forest Classifier 
 
 The Confusion Matrix shows the model can accurately predict 32 students to be one-time participants. This is the True Negative (TN). One student was predicted to return to CSP programs but in fact was a one-time participant (False Positive). 10 Students were predicted to be one-time participants but in fact returned to CSP Programs (False Negative). And finally 4 students were accurately predicted to return to CSP (True Positive). 
 
-The precision score is high because of the low false positive count. Recall score is high and accurate for one-time participants, but not for returning students. This is probably attributed to the on average, lower count of these students. 
+The precision score is high because of the low false positive count. Recall score is high and accurate for one-time participants, but not for returning students. This is probably attributed to the lower count of these students relative to the data set. 
 
 ### Limitations of Machine Learning and Model of Choice
 - Small data turnout, complete information for only 186 students used for this model
